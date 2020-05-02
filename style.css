@@ -1,0 +1,341 @@
+
+    
+            
+    #Grid1
+    {
+      display: grid;
+      
+      padding: 2px;
+       grid-template-columns: auto;
+      grid-template-rows: auto;
+      grid-template: "A A A A "
+                      "B B C C"
+                      "B B D D"
+                      "B B E E";
+    background-color: rgba(0, 0, 0, 0.753);
+    }
+
+    
+    
+     #a>.Heading{
+       
+        height: 70%;
+        margin-top: 5px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 58px;
+     }
+
+     .WhatHow   
+     {
+         font-family: 'Josefin Sans', sans-serif;
+         text-align: center;
+         font-size: 40px;
+         padding: 20px;
+     }
+
+     .AnsToWhatHow{
+         font-size: 20px;
+        font-family: 'Prompt', sans-serif;
+        text-align: center;
+        padding: 20px;
+        background-color: rgba(3, 3, 3, 0.356)
+     }
+
+     .Names
+     {
+         text-align: center;
+         font-size: 40px;
+         font-family: 'Josefin Sans', sans-serif;
+        
+         color: white;
+         margin-top: 100px;
+         background-color: rgba(3, 3, 3, 0.356);
+     }
+    
+    #a
+    {
+      grid-area: A;
+      height: 70px;
+      margin-bottom: 2px;
+      background-color: rgba(0, 0, 0, 0.753);
+      text-align: center;
+      color: aliceblue;
+    }
+    
+    #b
+    {
+      grid-area: B;
+      height: 1000px;
+      margin-right: 5px;
+      background-image: url("https://c0.wallpaperflare.com/preview/265/904/836/iguana-reptile-lizard-chameleon.jpg");
+      background-size: cover;
+      color: white;
+      
+      
+    }
+    
+    #c
+    {
+      grid-area: C;
+      background-image: url("https://images.unsplash.com/photo-1477764085876-1df3917e052f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80");
+        background-size: cover;
+    }
+    
+    #d
+    {
+      grid-area: D;
+      background-image: url("https://sf.co.ua/15/02/wallpaper-1d848b.jpg");
+      background-size: cover;
+    }
+    
+    #e
+    {
+      grid-area: E;
+      background-image: url("https://images.unsplash.com/photo-1571391733814-15ac29ac3544?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=752&q=80");
+      background-size: cover;
+    }
+    
+    #d, #e
+    {
+      margin-top: 2px;
+    }
+    
+    #c, #d, #e
+    {
+        
+        width: 600px;
+        height: 330px;
+    }
+
+    div a{
+        text-decoration-line: none;
+    }
+
+   
+    
+/* CROCODILE PAGE BEGINS FROM HERE */
+
+.FlexBox1
+{
+    display: flex;
+    flex-direction: row;
+    
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.753);
+}
+
+#C1{
+    background-image: url("https://images.unsplash.com/photo-1586812466367-f6f0bb61b11f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    background-size: cover;
+    background-position: center;
+}
+
+#C2{
+    background-image: url("https://images.unsplash.com/photo-1510956630235-4eca070461af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    background-size: cover;
+    background-position: center;
+    }
+
+#S1
+{
+    background-image: url("https://images.unsplash.com/photo-1502252430442-aac78f397426?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    background-size: cover;
+    background-position: center;
+}
+
+#S2
+{
+    background-image: url("https://images.unsplash.com/photo-1576490400160-81734f32a1df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=866&q=80");
+    background-size: cover;
+    background-position: center;
+}
+
+#CH1
+{
+    background-image: url("https://images.unsplash.com/photo-1551590034-2e294159d76a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80");
+    background-size: cover;
+    background-position: center;
+}
+
+#CH2
+{
+    background-image: url("https://images.unsplash.com/photo-1568965081764-50bb4bd64ec5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    background-size: cover;
+    background-position: center;
+}
+
+.FlexBox1Child, .FlexBox1Child~div, .FlexBox1Child+div{
+   
+    width: 70%;
+    height: 460px;
+    background-color: rgba(0, 0, 0, 0.753);
+    font-size: 20px;
+        font-family: 'Prompt', sans-serif;
+        padding: 20px;
+        color: white;
+        border: 1px solid rgba(43, 4, 4, 0.26)  
+}
+
+.Heading2
+{
+   
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.753);
+}
+
+
+.ReptileHeading, .ReptileTypeHeading
+{
+    float: left;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 52px;
+   
+    color: white;
+    margin-top: 10px;
+
+}
+
+.ReptileTypeHeading
+{
+    margin-left: 340px;
+}
+
+
+
+    @media (min-width: 640px) and (max-width: 1027px){
+                                #Grid1{
+                               
+                              grid-template: "A A A"
+                                             "B B B"
+                                             "B B B"
+                                             "C D E"
+                                             "C D E"
+                                              ;
+                                            }
+    
+                                    #a{
+                                        height: 60px;
+                                        background-color: rgba(0, 0, 0, 0.753);
+                                    }        
+    
+                                    #b{
+                                        height: 600px;
+                                        margin-bottom: 2px;
+                                        
+                                    }
+    
+                                    #c, #d, #e
+                                    {
+                                        height: 200px;
+                                        width: 99%;
+                                        
+                                    }
+
+                                    .FlexBox1
+                                    {
+                                        background-color: rgba(0, 0, 0, 0.753);
+                                    }
+
+                                    .FlexBox1Child, .FlexBox1Child~div
+                                    {
+                                        width: 40%;
+                                        height: 400px;
+                                        padding: 10px;
+                                        font-size: 14px;
+                                       
+                                        
+                                    }
+
+                                    .ReptileHeading, .ReptileTypeHeading
+                                    {
+                                        font-size: 30px;
+                                        margin-top: 12px;
+                                        margin-left: 5px;
+                                    }
+
+                                    .ReptileTypeHeading
+                                    {
+                                        margin-left: 150px;
+                                    }
+                                    
+                                } 
+                                
+    @media (min-width: 400px) and (max-width: 780px)
+    {
+        #Grid1{
+                               
+            grid-template: "A A A"
+                           "B B B"
+                           "B B B"
+                           "C C C"
+                           "D D D"
+                           "E E E"
+                            ;
+                          }
+
+                        #a{
+                            height: 55px;
+                        }  
+                        
+                       
+                        #b{
+                            height: 750px;
+                            margin-bottom: 2px;
+                            
+                        }
+
+                        #c, #d, #e
+                        {
+                            height: 200px;
+                            width: 99%;
+                            
+                        }
+
+                        #a>.Heading
+                        {
+                            font-size: 40px;
+                        }
+
+                        .WhatHow, .Names
+                        {
+                            font-size: 30px;
+                        }
+
+                        .AnsToWhatHow
+                        {
+                            font-size: 18px;
+                        }
+
+                        .FlexBox1{
+                            display: flex;
+                            flex-direction: column;
+                            background-color: rgba(0, 0, 0, 0.753);
+                        }
+
+                        .Heading2
+                        {
+                            width: 100%;
+                        }
+
+                        .ReptileHeading, .ReptileTypeHeading
+                        {
+                            font-size: 40px;
+                            margin-top: 10px;
+                            margin-left: 5px;
+                        }
+
+                        .ReptileTypeHeading
+                        {
+                                        margin-left: 50px;
+                        }
+
+                        .FlexBox1Child, .FlexBox1Child~div
+                        {
+                            font-size: 15px;
+                            width: 96%;
+                            height: 250px;
+                           
+                        }
+    }
+            
+           
